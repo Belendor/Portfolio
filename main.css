@@ -58,7 +58,6 @@
 
 .section.second{
     background-color: #45567d;
-    height: 600px;
 }
 
     .secondh{
@@ -78,28 +77,123 @@
     
     .main-box{
         display: inline-block;
-        width: 1000px;
-        margin-left: calc(50% - 500px);
-        background-color: thistle;
+        margin-left: calc(50% - 350px);
+        margin-top: 40px;
     }
         .box-row{
             display: inline-block;
             width: 100%;
             height: 50%;
-            background-color: teal;
-            border: solid red;
         }
             .box{
                 display: inline-block;
-                width: 30%;
                 height: 100%;
-                background-color: royalblue;
+                float: left;
+                padding: 16px;
             }
-            .box > a > .img{
-                display: inline-block;
-                width: 200px;
-                height: 200px;
-                background-image: url(https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg);
-                background-size: cover;
-                background-position: center;     
-            }
+                .box-link{
+                    text-decoration: none;
+                }
+                .box-link:hover > p > span{
+                   animation-name: animation;
+                   animation-duration: 1s;
+                   animation-fill-mode: forwards;
+                }
+                    .box > a > .img{
+                        display: inline-block;
+                        width: 200px;
+                        height: 200px;
+                        background-image: url(https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        margin: auto;   
+                    }
+                    .box-link > p {
+                        text-align: center;  
+                        color: #f0f0f0;
+                    }
+                        .box-link > p > span{
+                            opacity: 0;
+                            color: coral;
+                        }
+
+@keyframes animation{
+    0%{ 
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.button {
+    display: inline-block;
+    width: 100px;
+    background-color: #303841;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding: 6px;
+    margin-left: calc( 50% - 50px)
+}
+    .button:hover > a > .simbol{
+        animation-name: move-right;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+.button > a > p{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 25px;
+    color: #f0f0f0;
+}
+
+    .button > a > .show{
+        padding-left: 3px;
+        padding-right: 5px;
+    }
+    .button > a > .simbol{
+        margin-top: 1px;
+        font-size: 25px;
+    }
+
+
+@keyframes move-right{
+    0%{
+        padding-left: 0px
+    }
+    100%{
+        padding-left: 3px
+    }
+}
+
+.section.third{
+    height: 75vh;
+    background-color: #303841;
+    text-align: center;
+    color: #f0f0f0;
+    
+}
+    .third > h2{
+        margin-top: 25vh;
+        font-size: 70px;
+    }
+    .third > p{
+        font-size: 20px;
+    }
+    .logo-container{
+        display: inline-block;
+        height: 40px;
+        width: 600px;
+        background-color: darkmagenta;
+        margin-top: 30px;
+    }
+
+
+.footer{
+    display: inline-block;
+    background-color: #303841;
+    height: 80px;
+    border-top: solid #be3144;
+}
+   
