@@ -185,9 +185,25 @@
         display: inline-block;
         height: 40px;
         width: 600px;
-        background-color: darkmagenta;
         margin-top: 30px;
     }
+        .logo-container > .brand-logo{
+            display: inline-block;
+            width: 20%;
+            float: left;
+        }
+            .logo-container > .brand-logo > a{
+                display: inline-block;
+                text-decoration: none;
+                color: white;
+                font-size: 25px;
+                padding: 5px;
+            }
+            .logo-container > .brand-logo > a:hover{
+                animation-name: move-bottom;
+                animation-duration: 0.5s;
+                animation-fill-mode: forwards;
+            }
 
 
 .footer{
@@ -196,4 +212,12 @@
     height: 80px;
     border-top: solid #be3144;
 }
-   
+
+@keyframes move-bottom{
+    0%{
+        margin-top: 0;
+    }
+    100%{
+        margin-top: 8px;
+    }
+}
