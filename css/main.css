@@ -118,6 +118,15 @@
                         background-position: center;
                         margin: auto;   
                     }
+                    .box > a > .img.mine{
+                        display: inline-block;
+                        width: 200px;
+                        height: 200px;
+                        background-image: url(../images/mine);
+                        background-size: cover;
+                        background-position: center;
+                        margin: auto;   
+                    }
                     .box-link > p {
                         text-align: center;  
                         color: #f0f0f0;
