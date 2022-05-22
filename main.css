@@ -103,7 +103,7 @@
                         display: inline-block;
                         width: 200px;
                         height: 200px;
-                        background-image: url(./images/card.png);
+                        background: url(./images/card.png);
                         background-size: cover;
                         background-position: center;
                         margin: auto;   
@@ -112,7 +112,7 @@
                         display: inline-block;
                         width: 200px;
                         height: 200px;
-                        background-image: url(./images/card.png);
+                        background: url(./images/card.png);
                         background-size: cover;
                         background-position: center;
                         margin: auto;   
