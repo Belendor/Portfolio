@@ -103,7 +103,7 @@
                         display: inline-block;
                         width: 200px;
                         height: 200px;
-                        background-image: url(https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg);
+                        background-image: url(../images/card.png);
                         background-size: cover;
                         background-position: center;
                         margin: auto;   
