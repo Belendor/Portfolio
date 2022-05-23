@@ -127,6 +127,33 @@
                         background-position: center;
                         margin: auto;   
                     }
+                    .box > a > .img.yami{
+                        display: inline-block;
+                        width: 200px;
+                        height: 200px;
+                        background-image: url(../images/yami.png);
+                        background-size: cover;
+                        background-position: center;
+                        margin: auto;   
+                    }
+                    .box > a > .img.node{
+                        display: inline-block;
+                        width: 200px;
+                        height: 200px;
+                        background-image: url(../images/node.png);
+                        background-size: cover;
+                        background-position: center;
+                        margin: auto;   
+                    }
+                    .box > a > .img.mern{
+                        display: inline-block;
+                        width: 200px;
+                        height: 200px;
+                        background-image: url(../images/mern.png);
+                        background-size: cover;
+                        background-position: center;
+                        margin: auto;   
+                    }
                     .box-link > p {
                         text-align: center;  
                         color: #f0f0f0;
